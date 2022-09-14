@@ -15,13 +15,13 @@ arrayTogether = np.concatenate((array2, array3))
 
 print('Array 2: ','\n', array2)
 print('Array 3: ','\n', array3)
-print('Array 2 e 3 ordenados: ','\n', sorted(arrayTogether))
+print('Array 2 e 3 ordenados: ','\n', np.sort(arrayTogether))
 
 
 # Exércicio 3
 print('\n\033[1m' + 'Exercício 3' + '\033[0m')
 
-print('Array 2 + Array 3 invertidos: ','\n', np.flip(sorted(arrayTogether))) #Flip só funciona para estruturas já ordenadas
+print('Array 2 + Array 3 invertidos: ','\n', np.flip(np.sort(arrayTogether))) #Flip só funciona para estruturas já ordenadas
 
 
 # Exércicio 4
