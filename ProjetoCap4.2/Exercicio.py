@@ -3,7 +3,7 @@ import numpy as np
 # Importando o csv
 data = np.loadtxt('space.csv', delimiter=';', dtype=str, encoding='utf-8') #
 
-# Exércicio 1 - Missões que deram certo
+# Exércicio 1 
 print('\033[1m' + 'Exercício 1' + '\033[0m')
 
 numMissions = np.max(data[1:, 0].astype('int32')) # Linha e coluna - Pegar tudo a partir da 1º linha até o final da coluna 0
