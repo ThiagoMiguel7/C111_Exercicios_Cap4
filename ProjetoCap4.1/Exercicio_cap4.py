@@ -62,3 +62,4 @@ if((dimension2[0] * dimension2[1])%2 == 0):
 else:
     print('A matriz com dimensões', dimension2[0],'x',dimension2[1] , 'pode se tornar um vetor com um número ímpar de elementos porque',
           dimension2[0] * dimension2[1], 'que é um número ímpar!')
+
